@@ -26,4 +26,8 @@ int main()
 	int j=v.size()-1;
 	if(binary_search(v,0,j,0))cout<<"PRESENT\n";
 	else cout<<"NO\n";
+//consider binary search approach whenever you have the array in sorted order 
+	// recall the STL binary search (vector should be in sorted order)
 }
+// time complexity o(logn)   n/2 n/2^2 and so on 
+// space complexity o(1)
